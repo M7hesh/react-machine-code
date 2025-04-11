@@ -1,0 +1,23 @@
+.notification {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.success {
+  background-color: green;
+}
+.info {
+  background-color: blue;
+}
+.warning {
+  background-color: orange;
+}
+.error {
+  background-color: red;
+}
