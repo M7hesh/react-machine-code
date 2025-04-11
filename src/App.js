@@ -1,10 +1,10 @@
 import "./styles.css";
+import Toast from "./toast/Toast";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Toast message="hi" type="success" />
     </div>
   );
 }
