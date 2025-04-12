@@ -7,17 +7,57 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
 }
 
 .success {
   background-color: green;
 }
+
 .info {
   background-color: blue;
 }
+
 .warning {
   background-color: orange;
 }
+
 .error {
   background-color: red;
+}
+
+.closeBtn {
+  cursor: pointer;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.top-right {
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+.top-left {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bottom-left {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+
 }
