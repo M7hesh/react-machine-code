@@ -1,11 +1,16 @@
 import React from "react";
 import "./../toast/toast.css";
 
-export default Toast = ({ type, message, onClose }) => {
+const Toast = ({ id, type, message, onClose, postion }) => {
   return (
-    <div className={`notification ${type}`}>
+    <div className={`notification ${type} ${postion
+      }`}>
       {message}
-      <button onClick={onClose}>x</button>
+      <button className="closeBtn" onClick={() => onClose(id)}>
+        x
+      </button>
     </div>
   );
 };
+
+export default Toast;
